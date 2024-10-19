@@ -1,0 +1,12 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        x:Class="gSpan.MainWindow"
+        Title="gSpan">
+    <StackPanel Margin="10">
+        <TextBlock Text="Select Dataset:" />
+        <TextBox Name="txtDataset" Width="400" />
+        <Button Name="btBrowse" Content="Browse" Click="btBrowse_Click" />
+        <Button Name="btLoad" Content="Load" Click="btLoad_Click" />
+        <Button Name="btClose" Content="Close" Click="btClose_Click" />
+    </StackPanel>
+</Window>
